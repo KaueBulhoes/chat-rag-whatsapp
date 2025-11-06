@@ -341,6 +341,4 @@ O sistema está **pronto para produção** e pode ser escalado conforme necessá
 
 ---
 
-**Desenvolvido com** ❤️ **e** ☕
-
 Última atualização: 2025-01-06
