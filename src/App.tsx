@@ -1,5 +1,6 @@
 import ConfigPanel from './components/ConfigPanel'
 import DocumentManager from './components/DocumentManager'
+import ChatInterface from './components/ChatInterface'
 import {
   Container,
   Header,
@@ -13,7 +14,7 @@ function App() {
     <Container>
       <Header>
         <HeaderContent>
-          <h1>Chat IA com RAG + WhatsApp</h1>
+          <h1>🚀 Chat IA com RAG + WhatsApp</h1>
         </HeaderContent>
       </Header>
 
@@ -22,6 +23,7 @@ function App() {
           <ConfigPanel />
         </GridLayout>
         <DocumentManager />
+        <ChatInterface />
       </MainContent>
     </Container>
   )
