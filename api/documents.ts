@@ -77,7 +77,7 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
         maxFileSize: 10 * 1024 * 1024,
       });
 
-      const [fields, files] = await form.parse(req);
+      const [, files] = await form.parse(req);
       const fileArray = files.file;
 
       if (!fileArray || fileArray.length === 0) {
