@@ -1,9 +1,11 @@
 import ConfigPanel from './components/ConfigPanel'
+import DocumentManager from './components/DocumentManager'
 import {
   Container,
   Header,
   HeaderContent,
   MainContent,
+  GridLayout,
 } from './styles/App.styles'
 
 function App() {
@@ -16,7 +18,10 @@ function App() {
       </Header>
 
       <MainContent>
-        <ConfigPanel />
+        <GridLayout>
+          <ConfigPanel />
+        </GridLayout>
+        <DocumentManager />
       </MainContent>
     </Container>
   )
