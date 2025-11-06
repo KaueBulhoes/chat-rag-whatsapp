@@ -12,6 +12,7 @@
   "dependencies": {
     "@supabase/supabase-js": "^2.80.0",
     "axios": "^1.13.2",
+    "formidable": "^3.5.4",
     "pdf-parse": "^2.4.5",
     "pdfjs-dist": "^5.4.394",
     "react": "^19.1.1",
@@ -22,6 +23,7 @@
   },
   "devDependencies": {
     "@eslint/js": "^9.36.0",
+    "@types/formidable": "^3.4.6",
     "@types/node": "^24.10.0",
     "@types/react": "^19.1.16",
     "@types/react-dom": "^19.1.9",
