@@ -16,11 +16,15 @@ export const HeaderContent = styled.div`
   max-width: 80rem;
   margin: 0 auto;
   padding: 0 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 
   h1 {
     font-size: 1.875rem;
     font-weight: bold;
     color: #111827;
+    margin: 0;
   }
 `;
 
