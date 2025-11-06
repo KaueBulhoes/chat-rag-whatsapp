@@ -3,13 +3,18 @@ import styled from "styled-components";
 export const Container = styled.div`
   min-height: 100vh;
   background-color: #f3f4f6;
+  padding-top: 4rem;
 `;
 
 export const Header = styled.header`
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
   background-color: #ffffff;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-  padding: 1.5rem 0;
-  margin-bottom: 2rem;
+  padding: 0.75rem 0;
+  z-index: 50;
 `;
 
 export const HeaderContent = styled.div`
@@ -21,7 +26,7 @@ export const HeaderContent = styled.div`
   align-items: center;
 
   h1 {
-    font-size: 1.875rem;
+    font-size: 1.25rem;
     font-weight: bold;
     color: #111827;
     margin: 0;
@@ -31,7 +36,7 @@ export const HeaderContent = styled.div`
 export const MainContent = styled.main`
   max-width: 80rem;
   margin: 0 auto;
-  padding: 0 1rem;
+  padding: 0 1rem 2rem;
 `;
 
 export const GridLayout = styled.div`

@@ -1,7 +1,6 @@
 import { useState, useEffect } from 'react'
 import {
     ConfigContainer,
-    ConfigTitle,
     FormGroup,
     ButtonGroup,
     Button,
@@ -93,8 +92,6 @@ export default function ConfigPanel() {
 
     return (
         <ConfigContainer>
-            <ConfigTitle>Configurações do Sistema</ConfigTitle>
-
             {message && (
                 message.type === 'success' ? (
                     <SuccessMessage>{message.text}</SuccessMessage>

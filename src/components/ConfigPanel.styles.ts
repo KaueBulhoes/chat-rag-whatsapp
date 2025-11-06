@@ -9,13 +9,6 @@ export const ConfigContainer = styled.div`
   margin: 0 auto;
 `;
 
-export const ConfigTitle = styled.h2`
-  font-size: 1.5rem;
-  font-weight: bold;
-  margin-bottom: 1.5rem;
-  color: #111827;
-`;
-
 export const FormGroup = styled.div`
   margin-bottom: 1.5rem;
 
